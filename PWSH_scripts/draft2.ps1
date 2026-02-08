@@ -1,0 +1,1 @@
+Get-ChildItem | Select-Object Name,@{Name="iscontainer";Expression={$_.psiscontainer}}
